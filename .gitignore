@@ -1,4 +1,21 @@
-
+# Secrets (never push these)
 .env
+.env.*
+!.env.example
+
+# Python
 venv/
 __pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Build output (for the .exe later)
+build/
+dist/
+*.spec
+
+# Generated reports and test cache
+.pytest_cache/
+*.log
